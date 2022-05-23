@@ -54,7 +54,7 @@ useEffect(()=>{
     <div>
        <Timerj/>
       <h1> <button onClick={Pay} style={{backgroundColor:'pink'}} >Pay all</button></h1>
-      <h1>total bill={+tt}</h1>
+      <h1 style={{backgroundColor:'yellow' ,width:'50%',color:'red'}}>Total bill={+tt}</h1>
      
 {seat.map((all,i)=>{
   
